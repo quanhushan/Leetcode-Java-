@@ -73,8 +73,6 @@ public class StringtoInteger {
 				ans = ans*10 + Character.getNumericValue(temp);
 				if(ans / 10 != check && flg) {
 					break;
-				} else if(ans / 10 != check && !flg) {
-					break;
 				}
 				checkCon = i;
 			}
