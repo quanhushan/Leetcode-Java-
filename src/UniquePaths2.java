@@ -33,7 +33,7 @@ public class UniquePaths2 {
 	public int uniquePathsWithObstacles(int[][] obstacleGrid) {
 		int row = obstacleGrid.length;
 		int column = obstacleGrid[0].length;
-		int[][] dp = new int[100][100];
+		int[][] dp = new int[row][column];
 
 		for (int i = 0; i < row; i++) {
 			if (obstacleGrid[i][0] == 0) {
